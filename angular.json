@@ -29,13 +29,13 @@
             ],
             "styles": [
               "src/styles.scss",
+              "src/assets/css/style.css",
               "src/assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css",
               "src/assets/css/bootstrap.min.css",
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",           
               "src/assets/css/plugins/magnific-popup/magnific-popup.css",
               "src/assets/css/plugins/jquery.countdown.css",
-              "src/assets/css/style.css",
               "src/assets/css/skins/skin-demo-2.css",
               "src/assets/css/demos/demo-2.css"
             ],

@@ -22,32 +22,32 @@ const routes: Routes = [
     component: DashboardComponent,
   },
   {
-    path: 'cart',
-    component: CartComponent,
+    path: 'cart',    
+    loadChildren: ()=> import('./page/cart/cart.module').then((m) => m.CartModule)
   },
   {
     path: 'wishlist',
-    component: WishlistComponent,
+    loadChildren: ()=> import('./page/wishlist/wishlist.module').then((m) => m.WishlistModule)
   },
   {
     path: 'checkout',
-    component: CheckoutComponent,
+    loadChildren: ()=> import('./page/checkout/checkout.module').then((m) => m.CheckoutModule)
   },
   {
     path: 'category',
-    component: CategoryComponent,
+    loadChildren: ()=> import('./page/category/category.module').then((m) => m.CategoryModule)
   },
   {
     path: 'about',
-    component: AboutComponent,
+    loadChildren: ()=> import('./page/about/about.module').then((m) => m.AboutModule)
   },
   {
     path: 'contact',
-    component: ContactComponent,
+    loadChildren: ()=> import('./page/contact/contact.module').then((m) => m.ContactModule)
   },
   {
     path: 'product',
-    component: ProductComponent,
+    loadChildren: ()=> import('./page/product/product.module').then((m) => m.ProductModule)
   },
   {
     path: 'login',
