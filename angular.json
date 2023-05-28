@@ -28,9 +28,32 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",           
+              "src/assets/css/plugins/magnific-popup/magnific-popup.css",
+              "src/assets/css/plugins/jquery.countdown.css",
+              "src/assets/css/style.css",
+              "src/assets/css/skins/skin-demo-2.css",
+              "src/assets/css/demos/demo-2.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery.hoverIntent.min.js",
+              "src/assets/js/jquery.waypoints.min.js",
+              "src/assets/js/superfish.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/jquery.plugin.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/bootstrap-input-spinner.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/demos/demo-2.js",
+              "src/assets/js/jquery.elevateZoom.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
